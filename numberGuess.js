@@ -5,7 +5,7 @@ while (true) {
 
     if (isNaN(guess) || guess < 1 || guess > 10) {
         console.log("Invalid input. Please enter a number between 1 and 10.");
-        continue; // Skip to next iteration if input is invalid
+        continue; 
     }
 
     if (guess > correctNumber) {
@@ -14,6 +14,6 @@ while (true) {
         console.log("Too low!");
     } else {
         console.log("Correct!");
-        break; // Exit loop when correct guess is made
+        break; 
     }
 }
